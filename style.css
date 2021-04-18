@@ -53,3 +53,66 @@ p {
 .emoji-face:hover {
     transform: scale(1.25);
 }
+
+.eye1 {
+    position: absolute;
+    background-color: rgb(155, 52, 4);
+    height: 11px;
+    width: 12px;
+    border-radius: 50%;
+    top: 30px;
+    left: 20px;
+}
+
+.eye2 {
+    position: absolute;
+    background-color: rgb(155, 52, 4);
+    height: 11px;
+    width: 12px;
+    border-radius: 50%;
+    top: 30px;
+    left: 70px;
+}
+
+.mouth {
+    position: absolute;
+    background-color: rgb(155, 52, 4);
+    height: 34px;
+    width: 70px;
+    border-radius: 0px 0px 90px 90px;
+    top: 52px;
+    left: 16px;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.tongue {
+    position: absolute;
+    background-color: rgb(245, 13, 148);
+    height: 38px;
+    width: 38px;
+    border-radius: 40%;
+    top: 20px;
+    left: 15px;
+    z-index: 2;
+}
+
+.mouth-shock {
+    position: absolute;
+    background-color: rgb(155, 52, 4);
+    height: 25px;
+    width: 23px;
+    border-radius: 50%;
+    top: 50px;
+    left: 40px;
+}
+
+.mouth-speechless {
+    position: absolute;
+    background-color: rgb(155, 52, 4);
+    height: 5px;
+    width: 65px;
+    border-radius: 0px 0px 90px 90px;
+    top: 60px;
+    left: 16px;
+}
